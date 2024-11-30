@@ -43,7 +43,7 @@ const applyStylesButton = document.getElementById("applyStyles");
         logoContainer.appendChild(logo);
 
         const title = document.createElement("div");
-        title.textContent = "Logo ve Başlık";
+        title.textContent = "Melih Can Akgüneş";
         logoContainer.appendChild(title);
 
         const button = document.createElement("button");
@@ -93,7 +93,7 @@ const applyStylesButton = document.getElementById("applyStyles");
         footer.style.textAlign = "center";
         footer.style.padding = "20px";
         footer.style.borderRadius = "10px";
-        footer.textContent = "Alt Bilgi Alanı - 2024 ©";
+        footer.innerHTML = "<a href='https://github.com/MelihC6n'>https://github.com/MelihC6n</a>";
 
         applyStylesButton.textContent = "Stiller Uygulandı";
         applyStylesButton.disabled = true;
